@@ -17,7 +17,7 @@ RUN apt-get update \
     && pip3 install -U pip
 
 RUN unzip ${DRPINSTALLER}.zip -d ${DRPINSTALLER} \
-    && ls -lh \
+    && rm ${DRPINSTALLER}.zip \
     && cd ${DRPINSTALLER} \
     && chmod +x DRP-AI_*-Install \
     && yes | ./DRP-AI_*-Install
