@@ -34,10 +34,10 @@ This generates an Ubuntu Docker Image as the operating environment for the DRP-A
     ls -lh .
 
     total 48K
-    drwxrwxr-x 8 root root 4.0K Oct  9 23:30 DRP-AI_translator
-    drwxrwxr-x 4 root root 4.0K Oct  9 23:29 UserConfig
-    drwxrwxr-x 2 root root 4.0K Oct  9 23:29 onnx
-    -rwxrwxr-x 1 root root  13K Sep 12 02:55 run_DRP-AI_translator_V2L.sh
-    -rwxrwxr-x 1 root root  13K Sep 12 02:55 run_DRP-AI_translator_V2M.sh
-    -rwxrwxr-x 1 root root  613 Sep 12 02:55 user_setup.sh
+    drwxrwxr-x 1 user user 4.0K Oct  9 23:30 DRP-AI_translator
+    drwxrwxr-x 1 user user 4.0K Oct  9 23:29 UserConfig
+    drwxrwxr-x 1 user user 4.0K Oct  9 23:29 onnx
+    -rwxrwxr-x 1 user user  13K Sep 12 02:55 run_DRP-AI_translator_V2L.sh
+    -rwxrwxr-x 1 user user  13K Sep 12 02:55 run_DRP-AI_translator_V2M.sh
+    -rwxrwxr-x 1 user user  613 Sep 12 02:55 user_setup.sh
     ```

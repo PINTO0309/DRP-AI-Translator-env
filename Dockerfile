@@ -30,7 +30,7 @@ RUN echo "root:root" | chpasswd \
     && echo "%${USERNAME}    ALL=(ALL)   NOPASSWD:    ALL" >> /etc/sudoers.d/${USERNAME} \
     && chmod 0440 /etc/sudoers.d/${USERNAME} \
     && mkdir -p ${WKDIR} \
-    && chown ${USERNAME}:${USERNAME} ${WKDIR}
+    && chown -R ${USERNAME}:${USERNAME} /drp
 
 USER ${USERNAME}
 WORKDIR ${WKDIR}
