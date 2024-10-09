@@ -45,3 +45,5 @@ This generates an Ubuntu Docker Image as the operating environment for the DRP-A
 - VSCode & Dev Container
 
     ![image](https://github.com/user-attachments/assets/d247c473-4569-45cb-a286-998a26b33bca)
+
+    ![image](https://github.com/user-attachments/assets/14b2bcea-cb0d-4e3b-b2f6-86263ebaf5d3)
