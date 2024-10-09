@@ -8,7 +8,9 @@ This generates an Ubuntu Docker Image as the operating environment for the DRP-A
 
 - Docker build & Docker run
     ```bash
-    docker build -t drp-ai-translator .
+    docker build . \
+    -t drp-ai-translator \
+    --build-arg DRPINSTALLER=r20ut5035ej0185-drp-ai-translator
 
     docker run --rm -it \
     -v `pwd`:/workdir \
