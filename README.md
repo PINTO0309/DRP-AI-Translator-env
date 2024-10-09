@@ -41,3 +41,7 @@ This generates an Ubuntu Docker Image as the operating environment for the DRP-A
     -rwxrwxr-x 1 user user  13K Sep 12 02:55 run_DRP-AI_translator_V2M.sh
     -rwxrwxr-x 1 user user  613 Sep 12 02:55 user_setup.sh
     ```
+
+- VSCode & Dev Container
+
+    ![image](https://github.com/user-attachments/assets/d247c473-4569-45cb-a286-998a26b33bca)
