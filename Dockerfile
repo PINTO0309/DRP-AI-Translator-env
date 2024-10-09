@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 ARG DRPINSTALLER=r20ut5035ej0185-drp-ai-translator
-ARG WKDIR=/${DRPINSTALLER}/drp-ai_translator_release
+ARG WKDIR=/drp/drp-ai_translator_release
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -9,16 +9,16 @@ COPY ${DRPINSTALLER}.zip .
 RUN apt-get update \
     && apt-get install -y \
         nano python3-pip libgl1-mesa-dev wget libopencv-dev \
-        libpython3-all-dev wget curl cmake unzip \
+        libpython3-all-dev wget curl cmake unzip vim \
         software-properties-common sudo pkg-config libhdf5-dev \
     && sed -i 's/# set linenumbers/set linenumbers/g' /etc/nanorc \
     && apt clean \
     && rm -rf /var/lib/apt/lists/* \
     && pip3 install -U pip
 
-RUN unzip ${DRPINSTALLER}.zip -d ${DRPINSTALLER} \
+RUN unzip ${DRPINSTALLER}.zip -d drp \
     && rm ${DRPINSTALLER}.zip \
-    && cd ${DRPINSTALLER} \
+    && cd drp \
     && chmod +x DRP-AI_*-Install \
     && yes | ./DRP-AI_*-Install
 
