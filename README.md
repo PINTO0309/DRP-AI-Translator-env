@@ -65,7 +65,7 @@ drwxrwxr-x 1 user user 4.0K Oct  9 23:43 onnx
 -rwxrwxr-x 1 user user  13K Sep 12 02:55 run_DRP-AI_translator_V2M.sh
 -rwxrwxr-x 1 user user  613 Sep 12 02:55 user_setup.sh
 
-./run_DRP-AI_translator_V2L.sh 
+./run_DRP-AI_translator_V2L.sh
 
 [Run DRP-AI Translator] Ver. 1.85
 [DRP-AI translator] run script
@@ -92,7 +92,7 @@ HTTP request sent, awaiting response... 200 OK
 Length: 102583340 (98M) [application/octet-stream]
 Saving to: './onnx/resnet50v1.onnx'
 
-./onnx/resnet50v1.onnx                             100%[==========>]  97.83M  83.8MB/s    in 1.2s    
+./onnx/resnet50v1.onnx                             100%[==========>]  97.83M  83.8MB/s    in 1.2s
 
 2024-10-10 00:09:48 (83.8 MB/s) - './onnx/resnet50v1.onnx' saved [102583340/102583340]
 
@@ -344,3 +344,6 @@ done.
 ---------------------------------------------
 [Converter for DRP] Finish
 ```
+
+## Reference
+1. DRP-AI TVM: https://github.com/renesas-rz/rzv_drp-ai_tvm
