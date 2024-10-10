@@ -4,6 +4,8 @@ This generates an Ubuntu Docker Image as the operating environment for the DRP-A
 # DRP-AI Translator Install
 - Installer download (`.zip`)
 
+    You will need to create an account and log in.
+
     https://www.renesas.com/ja/products/microcontrollers-microprocessors/rz-arm-based-high-end-32-64-bit-mpus/drp-ai-translator
 
 - Docker build & Docker run
